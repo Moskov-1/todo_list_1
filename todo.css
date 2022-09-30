@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-list {
+    min-width: 60%;
+    max-width: 90%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding-top: 2rem;
+    flex-direction: column;
+}
+.todo-list > *{
+    margin: 0.5rem auto;
+}
+.todo-table {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+.li {
+    outline: 1px solid black;
+    padding: 100px 5px;
+}
+.li td{
+    outline: 1px solid black;
+    padding: 10px 5px;
+}
